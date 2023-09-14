@@ -25,3 +25,15 @@ Content-Type: application/json
 {
     "prompt": "stf, pena, prisão"
 }
+
+###
+
+# @name generate-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+ "videoId": "37cae4a5-ea0d-4e93-b19b-b7ff8f2dab5c",
+ "temperature": 0.5,
+ "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}''' "
+}
