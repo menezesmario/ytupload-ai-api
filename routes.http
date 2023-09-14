@@ -14,3 +14,14 @@ Content-Type: audio/mpeg
 
 < ./example.mp3
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+
+### 
+
+# @name create-transcription
+POST http://localhost:3333/videos/3913118b-a7a9-44a2-bc28-8a2068a14878/transcription
+Content-Type: application/json
+
+{
+    "prompt": "soul music, funk, groove"
+}
