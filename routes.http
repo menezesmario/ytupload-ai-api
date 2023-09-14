@@ -19,9 +19,9 @@ Content-Type: audio/mpeg
 ### 
 
 # @name create-transcription
-POST http://localhost:3333/videos/3913118b-a7a9-44a2-bc28-8a2068a14878/transcription
+POST http://localhost:3333/videos/37cae4a5-ea0d-4e93-b19b-b7ff8f2dab5c/transcription
 Content-Type: application/json
 
 {
-    "prompt": "soul music, funk, groove"
+    "prompt": "stf, pena, prisão"
 }
